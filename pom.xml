@@ -17,9 +17,9 @@
     </parent>
     
     <modules>
-        <module>consumer</module>
         <module>eureka_server</module>
-<!--        <module>provider</module>-->
+        <module>provider</module>
+        <module>ribbon</module>
     </modules>
     
     <properties>

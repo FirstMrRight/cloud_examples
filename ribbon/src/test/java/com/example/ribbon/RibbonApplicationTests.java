@@ -1,10 +1,10 @@
-package com.example.demo;
+package com.example.ribbon;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SonsumerServerApplicationTests {
+class RibbonApplicationTests {
 
     @Test
     void contextLoads() {

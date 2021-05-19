@@ -20,8 +20,12 @@ public class ProviderApplication {
     @Value("${server.port}")
     String port;
 
+    @Value("${spring.application.name}")
+    String serverName;
+
     @GetMapping("/hi")
     public String home(@RequestParam(value = "name", defaultValue = "liutx") String name) {
+        System.out.println(serverName);
         return "hi " + name + " ,i am from port:" + port;
     }
 }
